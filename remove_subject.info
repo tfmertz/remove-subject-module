@@ -1,0 +1,5 @@
+name = Remove Subject
+description = Remove the subject line for comments.
+package = Epicodus Examples
+core = 7.x
+files[] = remove_subject.module

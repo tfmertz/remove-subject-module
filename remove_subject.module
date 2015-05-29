@@ -1,0 +1,8 @@
+<?php
+
+function bakery_user_form_alter(&$form, &$form_state, $form_id) {
+
+    if($form_id == 'comment_node_page_form') {
+        $form['subject']['#type'] = 'hidden';
+    }
+}
